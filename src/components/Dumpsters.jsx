@@ -1,6 +1,6 @@
 const dumpsters = [
   {
-    image: "/images/dumpster-12-yard.jpg",
+    image: "./assets/images/dumpster-12-yard.jpg",
     size: "12 YARD",
     price: "$350",
     tons: "1 Ton Included",
@@ -9,28 +9,28 @@ const dumpsters = [
 
   {
 
-    image: "/images/dumpster-16-yard.jpg",
+    image: "./assets/images/dumpster-16-yard.jpg",
     size: "16 YARD",
     price: "$395",
     tons: "2 Tons Included",
     rental: "1-10 Day Rental",
   },
   {
-    image: "/images/dumpster-20-yard.jpg",
+    image: "./assets/images/dumpster-20-yard.jpg",
     size: "20 YARD",
     price: "$495",
     tons: "3 Tons Included",
     rental: "1-14 Day Rental",
   },
   {
-    image: "/images/dumpster-30-yard.jpg",
+    image: "./assets/images/dumpster-30-yard.jpg",
     size: "30 YARD",
     price: "$645",
     tons: "4 Tons Included",
     rental: "1-14 Day Rental",
   },
   {
-    image: "/images/dumpster-40-yard.jpg",
+    image: "./assets/images/dumpster-40-yard.jpg",
     size: "40 YARD",
     price: "$745",
     tons: "5 Tons Included",
@@ -53,7 +53,7 @@ function Dumpsters() {
               className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-lg transition-shadow"
             >
 
-              <img src={`./assets${item.image}`} alt={item.size} className="w-full h-48 object-contain rounded-lg mb-4 object-center " />
+              <img src={`${item.image}`} alt={item.size} className="w-full h-48 object-contain rounded-lg mb-4 object-center " />
 
 
               <h3 className="text-xl font-bold mb-4 text-center bg-[#005294] text-white py-2">{item.size}</h3>
