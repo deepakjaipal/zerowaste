@@ -1,0 +1,21 @@
+
+@import "tailwindcss";
+
+body {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.banner_image {
+  background-image: url('./assets/images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.how-it-works{
+  background-image: url('./assets/images/how-it-works.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
