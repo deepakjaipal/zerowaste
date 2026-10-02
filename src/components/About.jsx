@@ -31,11 +31,19 @@ function About() {
           </p>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="w-1/2 flex items-center justify-center h-[700px] bg-[url('./assets/images/aboutus.jpg')] bg-cover bg-center bg-no-repeat ">
 
       </div>
       </div>
 
+=======
+      <div className="w-1/2 flex items-center justify-center h-[700px] bg-[url('./src/assets/images/aboutus.jpg')] bg-cover bg-center bg-no-repeat ">
+        
+      </div>
+      </div>
+      
+>>>>>>> f6339a5c8bb1471c085164198a04ec19a3c1e883
     </section>
   );
 }
