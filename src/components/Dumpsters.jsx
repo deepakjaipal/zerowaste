@@ -6,11 +6,9 @@ const dumpsters = [
     tons: "1 Ton Included",
     rental: "1-7 Day Rental",
   },
-<<<<<<< HEAD
+
   {
-=======
-  { 
->>>>>>> f6339a5c8bb1471c085164198a04ec19a3c1e883
+
     image: "/images/dumpster-16-yard.jpg",
     size: "16 YARD",
     price: "$395",
@@ -54,11 +52,10 @@ function Dumpsters() {
               key={item.size}
               className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-lg transition-shadow"
             >
-<<<<<<< HEAD
+
               <img src={`./assets${item.image}`} alt={item.size} className="w-full h-48 object-contain rounded-lg mb-4 object-center " />
-=======
-              <img src={`/src/assets${item.image}`} alt={item.size} className="w-full h-48 object-contain rounded-lg mb-4 object-center " />
->>>>>>> f6339a5c8bb1471c085164198a04ec19a3c1e883
+
+
               <h3 className="text-xl font-bold mb-4 text-center bg-[#005294] text-white py-2">{item.size}</h3>
               <div className="text-3xl font-bold mb-4 text-center text-[#005294]">{item.price}</div>
               <ul className="space-y-2 mb-6 text-gray-600">

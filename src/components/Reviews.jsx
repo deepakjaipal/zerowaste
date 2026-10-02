@@ -1,10 +1,8 @@
 function Reviews() {
   return (
-<<<<<<< HEAD
+
     <section className=" bg-[url('./assets/images/reviews.jpg')] bg-cover bg-center bg-no-repeat">
-=======
-    <section className=" bg-[url('./src/assets/images/reviews.jpg')] bg-cover bg-center bg-no-repeat">
->>>>>>> f6339a5c8bb1471c085164198a04ec19a3c1e883
+
       <div className="max-w-7xl mx-auto bg-black/30 py-20 px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl text-white font-bold mb-4">What Our Customers Say About Us</h2>
