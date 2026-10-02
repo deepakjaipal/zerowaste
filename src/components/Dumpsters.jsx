@@ -1,6 +1,7 @@
+
 const dumpsters = [
   {
-    image: "./assets/dumpster-12-yard.jpg",
+    image: "/dumpster-12-yard.jpg",
     size: "12 YARD",
     price: "$350",
     tons: "1 Ton Included",
@@ -9,28 +10,28 @@ const dumpsters = [
 
   {
 
-    image: "./assets/dumpster-16-yard.jpg",
+    image: "/dumpster-16-yard.jpg",
     size: "16 YARD",
     price: "$395",
     tons: "2 Tons Included",
     rental: "1-10 Day Rental",
   },
   {
-    image: "./assets/dumpster-20-yard.jpg",
+    image: "/dumpster-20-yard.jpg",
     size: "20 YARD",
     price: "$495",
     tons: "3 Tons Included",
     rental: "1-14 Day Rental",
   },
   {
-    image: "./assets/dumpster-30-yard.jpg",
+    image: "/dumpster-30-yard.jpg",
     size: "30 YARD",
     price: "$645",
     tons: "4 Tons Included",
     rental: "1-14 Day Rental",
   },
   {
-    image: "./assets/dumpster-40-yard.jpg",
+    image: "/dumpster-40-yard.jpg",
     size: "40 YARD",
     price: "$745",
     tons: "5 Tons Included",
